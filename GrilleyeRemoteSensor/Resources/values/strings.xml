@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GrilleyeRemoteSensor</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+  <string name="title_notifications">Notifications</string>
+  <string name="label1">Πρώτο θερμοστοιχείο:</string>
+  <string name="label2">Δεύτερο θερμοστοιχείο:</string>
+  <string name="label3">Τρίτο θερμοστοιχείο:</string>
+  <string name="label4">Τέταρτο θερμοστοιχείο:</string>
+  <string name="deviceid">Αριθμός Αισθητήρα</string>
+  <string name="temperature">Θερμοκρασία:</string>
+  <string name="temperature1">70.23\u2103</string>
+  <string name="temperature2">70.23\u2103</string>
+  <string name="temperature3">70.23\u2103</string>
+  <string name="temperature4">70.23\u2103</string>
+</resources>

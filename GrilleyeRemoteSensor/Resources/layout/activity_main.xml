@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/title_home" />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:background="?android:attr/windowBackground"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/navigation" />
+    
+    <TextView
+        android:text="@string/label1"
+        android:background="#269"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+        android:id="@+id/label1"
+        android:layout_marginRight="148.0dp" />
+    <TextView
+        android:text="@string/deviceid"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label1"
+        android:id="@+id/deviceid1" />
+    <TextView
+        android:text="@string/temperature"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/deviceid1"
+        android:id="@+id/templabel1" />
+    <TextView
+        android:text="@string/temperature1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/templabel1"
+        android:layout_alignTop="@id/templabel1"
+        android:id="@+id/temperature1" />
+
+     <TextView
+        android:text="@string/label2"
+        android:background="#269"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+        android:layout_below="@id/templabel1"
+        
+        android:id="@+id/label2"
+        android:layout_marginRight="148.0dp" />
+    <TextView
+        android:text="@string/deviceid"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label2"
+        android:id="@+id/deviceid2" />
+    <TextView
+        android:text="@string/temperature"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/deviceid2"
+        android:id="@+id/templabel2" />
+    <TextView
+        android:text="@string/temperature2"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/templabel2"
+        android:layout_alignTop="@id/templabel2"
+        android:id="@+id/temperature2" />
+     <TextView
+        android:text="@string/label3"
+        android:background="#269"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+        android:layout_below="@id/templabel2"
+        
+        android:id="@+id/label3"
+        android:layout_marginRight="148.0dp" />
+    <TextView
+        android:text="@string/deviceid"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label3"
+        android:id="@+id/deviceid3" />
+
+    <TextView
+        android:text="@string/temperature"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/deviceid3"
+        android:id="@+id/templabel3" />
+    <TextView
+        android:text="@string/temperature3"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/templabel3"
+        android:layout_alignTop="@id/templabel3"/>
+ 
+     <TextView
+        android:text="@string/label4"
+        android:background="#269"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+        android:layout_below="@id/templabel3"
+        
+        android:id="@+id/label4"
+        android:layout_marginRight="148.0dp" />
+    <TextView
+        android:text="@string/deviceid"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label4"
+        android:id="@+id/deviceid4" />
+    <TextView
+        android:text="@string/temperature"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/deviceid4"
+        android:id="@+id/templabel4" />
+    <TextView
+        android:text="@string/temperature4"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/templabel4"
+        android:layout_alignTop="@id/templabel4"
+        android:id="@+id/temperature4" />
+
+
+
+</RelativeLayout>
