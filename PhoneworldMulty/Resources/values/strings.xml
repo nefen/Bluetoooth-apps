@@ -1,8 +1,0 @@
-<resources>
-  <string name="app_name">Phone Word</string>
-  <string name="EnterPhoneword">Enter Phoneword:</string>
-  <string name="action_settings">Settings</string>
-  <string name="Phone">1-855-XAMARIN</string>
-  <string name="TranslateButton">Translate</string>
-  <string name="translationHistory">Translation History</string>
-</resources>
