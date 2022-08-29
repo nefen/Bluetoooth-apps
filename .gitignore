@@ -23,13 +23,19 @@ mono_crash.*
 [Rr]eleases/
 x64/
 x86/
+<<<<<<< HEAD
 [Ww][Ii][Nn]32/
+=======
+>>>>>>> 1140da974e760a285d7a1e0f18014893bdb060c3
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
 bld/
 [Bb]in/
 [Oo]bj/
+<<<<<<< HEAD
 [Oo]ut/
+=======
+>>>>>>> 1140da974e760a285d7a1e0f18014893bdb060c3
 [Ll]og/
 [Ll]ogs/
 
@@ -63,9 +69,12 @@ project.lock.json
 project.fragment.lock.json
 artifacts/
 
+<<<<<<< HEAD
 # ASP.NET Scaffolding
 ScaffoldingReadMe.txt
 
+=======
+>>>>>>> 1140da974e760a285d7a1e0f18014893bdb060c3
 # StyleCop
 StyleCopReport.xml
 
@@ -142,11 +151,14 @@ _TeamCity*
 .axoCover/*
 !.axoCover/settings.json
 
+<<<<<<< HEAD
 # Coverlet is a free, cross platform Code Coverage Tool
 coverage*.json
 coverage*.xml
 coverage*.info
 
+=======
+>>>>>>> 1140da974e760a285d7a1e0f18014893bdb060c3
 # Visual Studio code coverage results
 *.coverage
 *.coveragexml
@@ -184,7 +196,11 @@ publish/
 *.azurePubxml
 # Note: Comment the next line if you want to checkin your web deploy settings,
 # but database connection strings (with potential passwords) will be unencrypted
+<<<<<<< HEAD
 #*.pubxml
+=======
+*.pubxml
+>>>>>>> 1140da974e760a285d7a1e0f18014893bdb060c3
 *.publishproj
 
 # Microsoft Azure Web App publish settings. Comment the next line if you want to
@@ -358,6 +374,9 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+<<<<<<< HEAD
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+=======
+>>>>>>> 1140da974e760a285d7a1e0f18014893bdb060c3
